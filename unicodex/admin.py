@@ -49,3 +49,4 @@ class VendorVersionAdmin(admin.ModelAdmin):
 @admin.register(Design)
 class DesignAdmin(admin.ModelAdmin):
     pass
+#Just adding a comment to make PR
