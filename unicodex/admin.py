@@ -13,7 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+#just testing autodeploy
 from django.contrib import admin
 from django.core import management
 
@@ -49,4 +49,3 @@ class VendorVersionAdmin(admin.ModelAdmin):
 @admin.register(Design)
 class DesignAdmin(admin.ModelAdmin):
     pass
-#Just adding a comment to make PR
